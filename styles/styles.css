@@ -1,10 +1,10 @@
 .horizontal-scrolling-wrapper {
 	background-color: pink;
-	width: 50em;
-	height: 25em;
+	width: 900px;
+	height: 2880px;
 	overflow-y: auto;
 	overflow-x: hidden;
-	transform: rotate(-90deg) translateY(-25em);
+	transform: rotate(-90deg) translateY(-2880px);
 	transform-origin: right top;
 }
 
