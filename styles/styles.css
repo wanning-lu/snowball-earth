@@ -1,0 +1,15 @@
+.horizontal-scrolling-wrapper {
+	background-color: pink;
+	width: 40%;
+	height: 50%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transform: rotate(-90deg);
+	transform-origin: right top;
+}
+
+.horizontal-scrolling-wrapper > div {
+	width: 100px;
+	height: 100px;
+	transform: rotate(90deg);
+}
