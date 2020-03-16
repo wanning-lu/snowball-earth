@@ -93,7 +93,7 @@
 
 .causes {
     padding: 10% 20%;
-    height: 80vh;
+    height: 60vh;
 }
 
 .causes h1 {
@@ -101,9 +101,6 @@
     text-align: center;
     font-size: 10vh;
     color: #0B1722;
-}
-
-.grid {
 }
 
 .volcano {
@@ -114,14 +111,16 @@
 }
 
 .volcano img {
+    position: relative;
     height: 53vh;
 }
 
 .volcano .text {
     display: none;
     background-color: #E8F1F2;
-    position: relative;
+    position: absolute;
     top: 2%;
+    z-index; 50;
 }
 
 .volcano:hover .text {
@@ -151,6 +150,7 @@
 }
 
 .silicate img {
+    position: relative;
     height: 53vh;
 }
 
@@ -159,11 +159,10 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-
 .silicate .text {
+    position: absolute;
     display: none;
     background-color: #E8F1F2;
-    position: relative;
     top: 2%;
 }
 
@@ -181,4 +180,43 @@
     font-size: 1.5vh;
 }
 
+.albedo {
+    position: relative;
+    height: 70vh;
+}
 
+.albedo h2 {
+    font-size: 8vh;
+    text-align: center;
+    font-family: 'Chivo';
+    z-index: -99;
+    width: 100%;
+}
+
+.albedo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vh;
+    z-index: -99;
+}
+
+.albedo p {
+    
+    padding: 1% 30%;
+    font-size: 1.5vh;
+    font-family: 'Overpass';
+}
+
+.evidence {
+    height: 150vh;
+    background-color: #E8F1F2;
+}
+
+.evidence h1 {
+    font-family: 'Chivo';
+    font-size: 8.5vw;
+    color: #0B1722;
+    text-align: center;
+    line-height: 1.5;
+}
