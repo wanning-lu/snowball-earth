@@ -208,11 +208,10 @@
     font-family: 'Overpass';
 }
 
-
 .evidence {
-    height: 125vh;
+    height: 175vh;
     background-color: #E8F1F2;
-    padding: 0 20%;
+    padding: 5% 20%;
 }
 
 .evidence h1 {
@@ -237,7 +236,7 @@
 
 #ethiopia {
     position: relative;
-    height: 40%;
+    height: 30%;
 }
 
 #ethiopia p {
@@ -253,7 +252,7 @@
 
 #kalahari {
     position: relative;
-    height: 40%
+    height: 30%
 }
 
 #kalahari h2 {
@@ -266,9 +265,64 @@
     float: right;
 }
 
-
 #kalahari img {
     display: inline;
     float left;
     width: 50%;
 }
+
+#looking h2 {
+    text-align: center;
+}
+
+.climate {
+    height: 50vh;
+    background-color: #3D4F60;
+    padding: 5% 20%;
+}
+
+.climate h1 {
+    display: inline-block;
+    font-family: 'Chivo';
+    width: 50%;
+    font-size: 6vw;
+}
+
+.climate p {
+    display: inline-block;
+    font-family: 'Overpass';
+    width: 50%;
+    font-size: 1.5vw;
+    float: right;
+    text-align: center;
+}
+
+.slushball {
+    height: 50vh;
+    padding: 5% 20%;
+}
+
+.slushball h1 {
+    font-family: 'Chivo';
+    font-size: 7.5vw;
+    text-align: center;
+}
+
+.slushball p {
+    font-family: 'Overpass';
+    font-size: 2vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer {
+    height: 4vh;
+    background-color: azure;
+}
+
+footer p {
+    font-size: 1vw;
+    text-align: center;
+    font-family: 'Overpass';
+}
+
