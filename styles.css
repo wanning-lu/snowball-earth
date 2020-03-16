@@ -2,13 +2,33 @@
     margin: 0;
 }
 
+#navbar {
+    height: 3vh;
+}
+
+#hamburger:hover li{
+    display: inline;
+}
+
+#navbar li {
+    display: none;
+}
+
+#hamburger {
+    display: inline;
+}
+
+#navbar li a {
+    text-decoration: none;
+}
+
 .wrapper {
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 2px;
 }
 
-.cover {
+#cover {
     position: relative;
     height: 70vh;
     padding: 10% 10%;
@@ -16,7 +36,7 @@
     color: #E8F1F2;   
 }
 
-.cover h1 {
+#cover h1 {
     text-align: center;
     font-family: 'Chivo';
     font-size: 10vw;
@@ -24,14 +44,14 @@
     line-height: 0.8;
 }
 
-.cover h3 {
+#cover h3 {
     text-align: center;
     font-family: 'Chivo';
     font-size: 4vw;
     line-height: 0.9;
 }
 
-.cover img {
+#cover img {
     display: block;
     margin: auto;
     left: 0;
@@ -41,43 +61,43 @@
     height: 10vh;
 }
 
-.hypothesis {
+#hypothesis {
     height: 28vh;
     padding: 5% 17%;
     text-align: center;
 }
 
-.hypothesis h3 {
+#hypothesis h3 {
     font-family: 'Chivo';
     font-size: 3.5vw;
     color: #0B1722;
 }
 
-.hypothesis p {
+#hypothesis p {
     font-family: 'Overpass';
     font-size: 1.25vw;
 }
 
-.hypothesis a {
+#hypothesis a {
     text-decoration: none;
     color: #0B1722;
 }
 
-.introduction {
+#introduction {
     position: relative;
     height: 50vh;
     padding: 10% 20%;
     background-color: #E8F1F2;
 }
 
-.introduction h1 {
+#introduction h1 {
     font-family: 'Chivo';
     font-size: 8.5vw;
     color: #0B1722;
     text-align: center;
 }
 
-.introduction p {
+#introduction p {
     font-size: 2vh;
     padding-left: 53%;
     font-family: 'Overpass';
@@ -85,37 +105,37 @@
     color: #121212;
 }
 
-.introduction img {
+#introduction img {
     float: left;
     display: inline;
     width: 50%;
 }
 
-.causes {
+#causes {
     padding: 10% 20%;
     height: 60vh;
 }
 
-.causes h1 {
+#causes h1 {
     font-family: 'Chivo';
     text-align: center;
     font-size: 10vh;
     color: #0B1722;
 }
 
-.volcano {
+#volcano {
     position: relative;
     width: 25vw;
     float: left;
     font-family: 'Overpass';
 }
 
-.volcano img {
+#volcano img {
     position: relative;
     height: 53vh;
 }
 
-.volcano .text {
+#volcano .text {
     display: none;
     background-color: #E8F1F2;
     position: absolute;
@@ -123,69 +143,69 @@
     z-index; 50;
 }
 
-.volcano:hover .text {
+#volcano:hover .text {
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.volcano h3 {
+#volcano h3 {
     text-align: center;
     font-weight: bolder;
     padding-top: 2%;
     font-size: 2.5vh;
 }
 
-.volcano p {
+#volcano p {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
     font-size: 1.5vh;
 }
 
-.silicate {
+#silicate {
     position: relative;
     width: 25vw;
     float: right;
     font-family: 'Overpass';
 }
 
-.silicate img {
+#silicate img {
     position: relative;
     height: 53vh;
 }
 
-.silicate:hover .text {
+#silicate:hover .text {
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.silicate .text {
+#silicate .text {
     position: absolute;
     display: none;
     background-color: #E8F1F2;
     top: 2%;
 }
 
-.silicate h3 {
+#silicate h3 {
     text-align: center;
     font-weight: bolder;
     padding-top: 2%;
     font-size: 2.5vh;
 }
 
-.silicate p {
+#silicate p {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
     font-size: 1.5vh;
 }
 
-.albedo {
+#albedo {
     position: relative;
     height: 70vh;
 }
 
-.albedo h2 {
+#albedo h2 {
     font-size: 8vh;
     text-align: center;
     font-family: 'Chivo';
@@ -193,7 +213,7 @@
     width: 100%;
 }
 
-.albedo img {
+#albedo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -201,20 +221,20 @@
     z-index: -99;
 }
 
-.albedo p {
+#albedo p {
     
     padding: 1% 30%;
     font-size: 1.5vh;
     font-family: 'Overpass';
 }
 
-.evidence {
+#evidence {
     height: 175vh;
     background-color: #E8F1F2;
     padding: 5% 20%;
 }
 
-.evidence h1 {
+#evidence h1 {
     font-family: 'Chivo';
     font-size: 8.5vw;
     color: #0B1722;
@@ -222,14 +242,14 @@
     line-height: 1.5;
 }
 
-.evidence h2 {
+#evidence h2 {
     font-family: 'Chivo';
     font-size: 6vw;
     color: #0B1722;
     line-height: 2;
 }
 
-.evidence p {
+#evidence p {
     font-family: 'Overpass';
     font-size: 2vh;
 }
@@ -275,20 +295,20 @@
     text-align: center;
 }
 
-.climate {
+#climate {
     height: 50vh;
     background-color: #3D4F60;
     padding: 5% 20%;
 }
 
-.climate h1 {
+#climate h1 {
     display: inline-block;
     font-family: 'Chivo';
     width: 50%;
     font-size: 6vw;
 }
 
-.climate p {
+#climate p {
     display: inline-block;
     font-family: 'Overpass';
     width: 50%;
@@ -297,18 +317,18 @@
     text-align: center;
 }
 
-.slushball {
+#slushball {
     height: 50vh;
     padding: 5% 20%;
 }
 
-.slushball h1 {
+#slushball h1 {
     font-family: 'Chivo';
     font-size: 7.5vw;
     text-align: center;
 }
 
-.slushball p {
+#slushball p {
     font-family: 'Overpass';
     font-size: 2vw;
     text-align: center;
