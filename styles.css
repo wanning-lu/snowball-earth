@@ -208,9 +208,11 @@
     font-family: 'Overpass';
 }
 
+
 .evidence {
-    height: 150vh;
+    height: 125vh;
     background-color: #E8F1F2;
+    padding: 0 20%;
 }
 
 .evidence h1 {
@@ -221,7 +223,52 @@
     line-height: 1.5;
 }
 
-.ethiopia {
-    height: 50%;
-    background-color: blue;
+.evidence h2 {
+    font-family: 'Chivo';
+    font-size: 6vw;
+    color: #0B1722;
+    line-height: 2;
+}
+
+.evidence p {
+    font-family: 'Overpass';
+    font-size: 2vh;
+}
+
+#ethiopia {
+    position: relative;
+    height: 40%;
+}
+
+#ethiopia p {
+    width: 45%;
+    display: inline-block;
+}
+
+#ethiopia img {
+    display: inline;
+    float: right;
+    width: 50%;
+}
+
+#kalahari {
+    position: relative;
+    height: 40%
+}
+
+#kalahari h2 {
+    float: right;
+}
+
+#kalahari p {
+    width: 45%;
+    display: inline-block;
+    float: right;
+}
+
+
+#kalahari img {
+    display: inline;
+    float left;
+    width: 50%;
 }
