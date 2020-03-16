@@ -1,15 +1,76 @@
-.horizontal-scrolling-wrapper {
-	background-color: pink;
-	width: 900px;
-	height: 2880px;
-	overflow-y: auto;
-	overflow-x: hidden;
-	transform: rotate(-90deg) translateY(-2880px);
-	transform-origin: right top;
+* {
+    margin: 0;
 }
 
-.horizontal-scrolling-wrapper > div {
-	width: 100px;
-	height: 100px;
-	transform: rotate(90deg);
+.wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.cover {
+    position: relative;
+    height: 70vh;
+    padding: 10% 10%;
+    background-color: #0B1722;
+    color: #E8F1F2;   
+}
+
+.cover h1 {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 10vw;
+    font-weight: bolder;
+    line-height: 0.8;
+}
+
+.cover h3 {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 4vw;
+    line-height: 0.9;
+}
+
+.cover img {
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 10%;
+    height: 10vh;
+}
+
+.hypothesis {
+    height: 28vh;
+    padding: 5% 17%;
+    text-align: center;
+}
+
+.hypothesis h3 {
+    font-family: 'Chivo';
+    font-size: 3.5vw;
+    color: #0B1722;
+}
+
+.hypothesis p {
+    font-family: 'Overpass';
+    font-size: 1.25vw;
+}
+
+.hypothesis a {
+    text-decoration: none;
+    color: #0B1722;
+}
+
+.introduction {
+    position: relative;
+    height: 70vh;
+    padding: 0 20%;
+    background-color: red;
+}
+
+.introduction h1 {
+    position: absolute;
+    right: 20%;
 }
